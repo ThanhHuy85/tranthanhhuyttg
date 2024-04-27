@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{
+	height: 50px; line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #FFC113; color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-top: 0; padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113
+}
+main{
+	min-height: 500px
+}
+footer{
+	min-height: 200px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+.bottom-bar{
+	height: 50px; line-height: 50px; background-color: #FFC113
+}
+#service a{
+	text-decoration: none; color: #3C3C3C
+}
+#service a:hover{
+	color: #FFC113
+}
+#why{
+	width: 100%; min-height: 350px; background-image: url("../images/why.jpg"); background-repeat: no-repeat; background-size: cover; object-position: center top
+}
+#client .hinh{
+	position: relative; width: 100%
+}
+#client .before{
+	position: absolute; left: 0; top: 0; padding: 8px; background-color: rgba(54,54,54,0.6)
+}
+#client .after{
+	position: absolute; left: 50%; top: 0; padding: 8px; background-color: rgba(54,54,54,0.6)
+}
+.banner{
+	width: 100%; min-height: 300px; position: relative
+}
+.caption{
+	width: 30%; color: white; position: absolute; top: 30%; left: 20%
+}
+.btn{
+	background-color: #056CB6; color: white; margin: 20px 0; width: 200px;
+}
+.btn:hover{
+	background-color: #FFC113;
+}
+#cn .noi-dung{
+	text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px 60px
+}
+#cn .noi-dung img{
+	width: 80px; height: 80px
+}
+#banner{
+	width: 100%; min-height: 350px; background-image: url("../images/pageheader.png"); background-repeat: no-repeat; background-size: cover; object-position: center top
+}
+#news h5 a{
+	text-decoration: none; color: black
+}
+#news h5 a:hover{
+	color: #FFC113
+}
+#doi-ngu img{
+	width: 200px; height: 200px
+}
+#doi-ngu .col-lg-3{
+	text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px 20px
+}
